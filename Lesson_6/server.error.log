@@ -1,0 +1,3 @@
+2021-06-10 17:22:42 ERROR BucketDaoImp:49 - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bucket`, CONSTRAINT `bucket_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+2021-06-11 00:12:25 ERROR UserDaoImp:48 - java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+2021-06-13 14:46:04 ERROR UserDaoImp:138 - java.sql.SQLException: Illegal operation on empty result set.
